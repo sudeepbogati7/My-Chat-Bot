@@ -6,7 +6,7 @@ const chatbotCloseBtn = document.querySelector(".close-btn");
 const inputInitHeight = chatInput.scrollHeight;
 
 let userMsg;
-const API_KEY = "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";
+const API_KEY = "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";
 
 const createChatLi = (message , className) => {
     // create a chat <li> element with passed message and class name 
@@ -66,7 +66,7 @@ chatInput.addEventListener('input', ()=> {
     chatInput.style.height = `${chatInput.scrollHeight}px`;
 })
 
-chatInput.addEventListener('keydown', (e)=> {
+chatInput.addEventListener('keyup', (e)=> {
     //if eneter key is pressed without shift and window
     if(e.key == 'Enter' && !e.shiftkey && window.innerWidth > 800 ){
         e.preventDefault();
