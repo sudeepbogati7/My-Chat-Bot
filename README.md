@@ -11,3 +11,6 @@ A fully responsive chatbot . <br>
 
 
 Here the link , (do check it out ) : [https://sudeepbogati7.github.io/My-Chat-Bot/](https://sudeepbogati7.github.io/My-Chat-Bot/)
+<br> <br>
+Here 's the sample screenshot.
+<img src = 'https://github.com/sudeepbogati7/My-Chat-Bot/blob/master/sample_ss.png'>
